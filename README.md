@@ -66,4 +66,7 @@ GROUP BY Platform
 ORDER BY Ventas_Globales DESC;
 ```
 ### 🏆 Conclusiones<br>
-Este proyecto demuestra mis competencias en el manejo de datos con SQL y Python, junto con mi habilidad para comunicar hallazgos mediante análisis visuales. Con el uso de Pandas, Numpy y Matplotlib, he sido capaz de transformar un conjunto de datos crudos en insights valiosos que podrían ser útiles para empresas de videojuegos o cualquier organización que trabaje con grandes volúmenes de datos.
+Este proyecto demuestra mis competencias en el manejo de datos con SQL y Python, junto con mi habilidad para comunicar hallazgos mediante análisis visuales. Con el uso de Pandas, Numpy y Matplotlib, he sido capaz de transformar un conjunto de datos crudos en insights valiosos que podrían ser útiles para empresas de videojuegos o cualquier organización que trabaje con grandes volúmenes de datos.<br>
+
+### Puedes ver la página del proyecto aquí:<br>
+https://banbak.github.io/data-engineering-vgsales/
