@@ -46,12 +46,14 @@ Evolución de las ventas: Las ventas globales de videojuegos alcanzaron su punto
 Algunas de las consultas SQL más importantes utilizadas en este proyecto incluyen:
 
 Total de ventas globales por plataforma
+```sql
 SELECT Platform, COUNT(*) AS Num_Juegos, SUM(Global_Sales) AS Ventas_Globales
 FROM ventas
 GROUP BY Platform
 ORDER BY Ventas_Globales DESC;
-
+```
 Porcentaje de ventas globales
+```sql
 WITH Total_Ventas AS (
     SELECT SUM(Global_Sales) AS Total_Global_Sales
     FROM ventas
@@ -62,6 +64,6 @@ SELECT Platform,
 FROM ventas
 GROUP BY Platform
 ORDER BY Ventas_Globales DESC;
-
+```
 🏆 Conclusiones
 Este proyecto demuestra mis competencias en el manejo de datos con SQL y Python, junto con mi habilidad para comunicar hallazgos mediante análisis visuales. Con el uso de Pandas, Numpy y Matplotlib, he sido capaz de transformar un conjunto de datos crudos en insights valiosos que podrían ser útiles para empresas de videojuegos o cualquier organización que trabaje con grandes volúmenes de datos.
