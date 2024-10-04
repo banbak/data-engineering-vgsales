@@ -7,7 +7,7 @@
 ![SQL](https://img.shields.io/badge/SQL-SQLite-yellow.svg)
 ![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-orange.svg)
 
-Análisis de datos de ventas de videojuegos: Un proyecto que muestra mis habilidades como ingeniero de datos usando Python, SQL, Pandas, Numpy, Matplotlib, y más.
+## Análisis de datos de ventas de videojuegos: Un proyecto que muestra mis habilidades como ingeniero de datos usando Python, SQL, Pandas, Numpy, Matplotlib, y más.
 
 ### 📄 Descripción del Proyecto<br>
 Este proyecto analiza un conjunto de datos de ventas de videojuegos (vgsales.csv), utilizando SQL para la manipulación y consultas de los datos, así como bibliotecas de Python como Pandas y Matplotlib para la visualización y análisis adicional. El objetivo principal es obtener información útil sobre las tendencias de ventas de videojuegos en diferentes plataformas, géneros y regiones.
