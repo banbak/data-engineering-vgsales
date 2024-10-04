@@ -36,19 +36,26 @@
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center; /* Asegura que el contenedor esté centrado */
+        }
+        .centered-icons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .centered-icons img {
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
-    <div class="container" style="text-align:center;">
+    <div class="container">
         <h1>Análisis de Datos de Videojuegos</h1>
-        <p style="font-size:20px;">
-            <strong>
-                <img src="img/nintendo.png" alt="Nintendo" style="width:40px; height:40px; margin-right:10px;">
-                <img src="img/ps.png" alt="PlayStation" style="width:40px; height:40px; margin-right:10px;">
-                <img src="img/xbox.png" alt="Xbox" style="width:40px; height:40px; margin-right:10px;">
-            </strong>
-        </p>
+        <div class="centered-icons">
+            <img src="img/nintendo.png" alt="Nintendo" style="width:40px; height:40px;">
+            <img src="img/ps.png" alt="PlayStation" style="width:40px; height:40px;">
+            <img src="img/xbox.png" alt="Xbox" style="width:40px; height:40px;">
+        </div>
         <p>Este es mi proyecto de análisis de datos utilizando Python, SQL, Matplotlib, NumPy y Pandas.</p>
         <p>Puedes ver el código fuente del proyecto <a href="https://github.com/banbak/data-engineering-vgsales">aquí</a>.</p>
         <p>Puedes ver el proyecto <a href="VGames.html">aquí</a>.</p>
