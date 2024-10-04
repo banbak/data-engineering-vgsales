@@ -13,37 +13,37 @@ Análisis de datos de ventas de videojuegos: Un proyecto que muestra mis habilid
 Este proyecto analiza un conjunto de datos de ventas de videojuegos (vgsales.csv), utilizando SQL para la manipulación y consultas de los datos, así como bibliotecas de Python como Pandas y Matplotlib para la visualización y análisis adicional. El objetivo principal es obtener información útil sobre las tendencias de ventas de videojuegos en diferentes plataformas, géneros y regiones.
 
 📈 Tecnologías y Herramientas Utilizadas<br>
-SQL (SQLite): Consultas avanzadas y manipulación de datos.
-Python: Procesamiento de datos.
-Pandas: Manejo y limpieza de datos.
-Numpy: Cálculos numéricos.
-Matplotlib: Visualización de datos.
-Jupyter Notebook: Desarrollo interactivo y presentación de resultados.
+SQL (SQLite): Consultas avanzadas y manipulación de datos.<br>
+Python: Procesamiento de datos.<br>
+Pandas: Manejo y limpieza de datos.<br>
+Numpy: Cálculos numéricos.<br>
+Matplotlib: Visualización de datos.<br>
+Jupyter Notebook: Desarrollo interactivo y presentación de resultados.<br>
 
 ⚙️ Funcionalidades del Proyecto<br>
-Carga de datos desde archivo CSV a una base de datos SQL.
-Análisis de datos con consultas SQL (incluyendo cálculos de porcentajes y agregados).
-Visualización de tendencias de ventas a lo largo de los años.
-Comparación de ventas por plataforma y género.
-Obtención de estadísticas clave, como los juegos más vendidos y las regiones con mayores ventas.
+Carga de datos desde archivo CSV a una base de datos SQL.<br>
+Análisis de datos con consultas SQL (incluyendo cálculos de porcentajes y agregados).<br>
+Visualización de tendencias de ventas a lo largo de los años.<br>
+Comparación de ventas por plataforma y género.<br>
+Obtención de estadísticas clave, como los juegos más vendidos y las regiones con mayores ventas.<br>
 
 🧑‍💻 Ejecución del Proyecto<br>
-Clona el repositorio:
-git clone https://github.com/banbak/data-engineering-vgsales.git
-cd data-engineering-vgsales
+Clona el repositorio:<br>
+git clone https://github.com/banbak/data-engineering-vgsales.git<br>
+cd data-engineering-vgsales<br>
 
-Abre el archivo VGames.ipynb en Jupyter Notebook:
-jupyter notebook VideoGame_Sales_Analysis.ipynb
+Abre el archivo VGames.ipynb en Jupyter Notebook:<br>
+jupyter notebook VideoGame_Sales_Analysis.ipynb<br>
 
 📊 Resultados Clave<br>
-Aquí se presentan algunos de los resultados más interesantes del análisis:
+Aquí se presentan algunos de los resultados más interesantes del análisis:<br>
 
-Plataformas con mayores ventas: Las plataformas PS2, X360, y PS3 dominan el mercado.
-Géneros más populares: Los juegos de Acción y Deportes son los más vendidos.
-Evolución de las ventas: Las ventas globales de videojuegos alcanzaron su punto más alto alrededor de 2010, con una tendencia a la baja en años recientes.
+Plataformas con mayores ventas: Las plataformas PS2, X360, y PS3 dominan el mercado.<br>
+Géneros más populares: Los juegos de Acción y Deportes son los más vendidos.<br>
+Evolución de las ventas: Las ventas globales de videojuegos alcanzaron su punto más alto alrededor de 2010, con una tendencia a la baja en años recientes.<br>
 
 🔍 Consultas SQL Utilizadas<br>
-Algunas de las consultas SQL más importantes utilizadas en este proyecto incluyen:
+Algunas de las consultas SQL más importantes utilizadas en este proyecto incluyen:<br>
 
 Total de ventas globales por plataforma
 ```sql
